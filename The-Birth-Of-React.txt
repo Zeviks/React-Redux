@@ -1,0 +1,25 @@
+In The beginning, the early late 90s and ealy 2000s websites only used mainly html, css, and js.
+But this will become a huge issue as website continue to improve and grow. Since they had to develop based on each individual browser.
+
+This issue got resolved with jQuery. jQuery allowed us for the the first time to interact with the dom with ease throught all of the browsers.
+But eventually with this power developers started building more and more bigger scale sites. Like Facebook, a site with tons of functinality.
+
+Then Backbone.js came out. Backbone allowd developers to organize their js files. Making jQuery easy to work with.
+
+Then came SPA, Single Page Applications. This applications only load the Html, Css, and JS once.
+Similar to Desktop Applications. 
+We started to focus more on the js file than the html file.
+
+Then In 2010, Angular.js was made. 
+This framework introduce a new way to organaized and create files/features.
+In containers, making sections or features inside of their own component. 
+But this too became tough to work with as when the site would grow to a larger scale so would the maintance.
+And confusion would also grow heavily since users where clinking in multiple sections of the site to take them to the same spot.
+Becoming difficult for developers to keep track of this.
+
+So Facebook began researshing how to solve this issue.
+
+Then in 2013 React was launched.
+Since at a similar time gooogle was redoing their own codebase with angular, most people switch to react.
+
+

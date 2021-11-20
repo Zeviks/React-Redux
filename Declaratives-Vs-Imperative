@@ -1,29 +1,29 @@
-What makes React so special is 4 Things 
+What makes React so special is 4 Things
+
+1.
 
 Imperative : This is where certain things change/ update or trigger on user event(click)
 Don't touch the DOM. I'll do it for you.
 For example when the site is loaded fetch the user's profile and display their profile image.
 
+VS
 
-Declaratives: 
-This is where we declare our app in an object to the dom. 
-And the 'bot' will find the best way to display our app. 
+Declaratives:
+This is where we declare our app in an object to the dom.
+And the 'bot' will find the best way to display our app.
 State is the data of our app.
 Based on the data/state you provide react in this way. This is where the name comes from.
 
-
-Component Architecture: Building Sites like lego blocks. PUTTING COMPONENTS TOGETHER TO MAKE A BIG ONE.
-Based on the data/state of our app 
+2. Component Architecture: Building Sites like lego blocks. PUTTING COMPONENTS TOGETHER TO MAKE A BIG ONE.
+   Based on the data/state of our app
    |
-We build components 
+   We build components
    |
-which will display our app
+   which will display our app
 
+3. One Way Data Flow : Unidirectional Data Flow
+   We take our state and components and combine them and they create
+   virtualDOM
 
-One Way Data Flow 
-
-
-
-
-
-UI Library
+4. UI Library
+   React is cross platform which means you can use the same principles for different platforms.
