@@ -33,4 +33,10 @@ WEBPACK:
 COMPONENT: 
     A component is a self-sustained fucntion that returns html 
     AKA the thing we see and interact with.
-    
+
+KEY: 
+    When we are creating elements in react we want to give each element its own unique key.
+    Becuase react will keep track on that specific key. 
+    Meaning that in the future if you need to change only a specific element
+    React can do so by updating the element with the unique id.
+    Also it would not have to re-render the whole page again.
