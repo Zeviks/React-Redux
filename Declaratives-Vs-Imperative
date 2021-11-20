@@ -27,3 +27,11 @@ Based on the data/state you provide react in this way. This is where the name co
 
 4. UI Library
    React is cross platform which means you can use the same principles for different platforms.
+
+Best Practices :
+
+1. Decide on Components : What needs to be in what component, breaking down the app.
+
+2. Decide the state and where it lives
+
+3. What Changes when state changes
