@@ -1,0 +1,14 @@
+What makes React so special is 4 Things 
+
+Imperative : This is where certain things change/ update or trigger on user event(click)
+Don't touch the DOM. I'll do it for you.
+For example when athe site is loaded fethc the users profile and siplay their profile image.
+
+
+Declaratives
+
+Component Architecture
+
+One Way Data Flow 
+
+UI Library
