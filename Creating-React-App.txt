@@ -1,0 +1,36 @@
+
+1.  We always first create a react app  
+    https://reactjs.org/docs/create-a-new-react-app.html
+
+OPTIONAL:  NPX
+            directly installs all of the pacjkages required, 
+            and runs them immidiatley. and then deltes them from the disk.
+
+PACKAGE.json
+        This is what tells other developers what libraries/dependencies are installed to rrun this project.
+
+
+STRICTMODE:
+            This will protect you against depricated code.
+            It will limit you in certain areas to prevent deprecated code from running.
+            It will trow warnings about does specific things in case you use them.
+
+BUILD:
+        By running the build command, react will condence all files into
+        one very optimal low memory super optimized file. 
+        And this will allow us to send that file faster through the web.
+
+TEST: 
+    This is for testing an specific file and to ensure the file does what it is suppose to do.
+
+EJECT: 
+    BABEL: Takes JSX and turns it into ES5 aka vanilla JS or Old School JS.
+
+WEBPACK: 
+    It breaks our javascript into chunks, self-contained version
+    And it request does chuncks accordingly.
+
+COMPONENT: 
+    A component is a self-sustained fucntion that returns html 
+    AKA the thing we see and interact with.
+    
