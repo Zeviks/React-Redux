@@ -2,13 +2,28 @@ What makes React so special is 4 Things
 
 Imperative : This is where certain things change/ update or trigger on user event(click)
 Don't touch the DOM. I'll do it for you.
-For example when athe site is loaded fethc the users profile and siplay their profile image.
+For example when the site is loaded fetch the user's profile and display their profile image.
 
 
-Declaratives
+Declaratives: 
+This is where we declare our app in an object to the dom. 
+And the 'bot' will find the best way to display our app. 
+State is the data of our app.
+Based on the data/state you provide react in this way. This is where the name comes from.
 
-Component Architecture
+
+Component Architecture: Building Sites like lego blocks. PUTTING COMPONENTS TOGETHER TO MAKE A BIG ONE.
+Based on the data/state of our app 
+   |
+We build components 
+   |
+which will display our app
+
 
 One Way Data Flow 
+
+
+
+
 
 UI Library
