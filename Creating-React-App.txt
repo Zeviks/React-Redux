@@ -40,6 +40,7 @@ KEY:
     Meaning that in the future if you need to change only a specific element
     React can do so by updating the element with the unique id.
     Also it would not have to re-render the whole page again.
+    This is mainly used for components of the same kind, to prevent confusion.
 
 LIFECYCLE COMPONENTS:
     Thse are components that execute automatically by react at a certain point.
@@ -94,6 +95,22 @@ Children: This is something that if theres none an we called it, we will get by 
           <CardList>
                  Children
           </CardList>
+Breaking Things Down: 
+        Breaking things down into small chuncks its the best approach to component Architecture
+        We should create a component with a single purpose.
+State vs Props 
+       State: Usually lives at the top, or at one spot. State can change but props cannot.
+       State gets turn into props as it gows down the data flows so it can be used whereever its needed.
 
-
-    
+WHEN STATE CHANGES:
+        When state changes it will alert any props that state has change to rerun the function to recive the new props.
+        What vever functions needs the props froms state will rerender when stae has changed.
+        Meaning anything that contains props from stae will re-render.
+ASYNC STATE:
+        Whenever we are chaging state its maing a async function meaning that the changes aren't aveliable immidiatly.
+        In order for us to have access to the data immiidiatly we would have to pass the function a second argument.
+        For Exmaple                                  --Second Argument--
+        { this.setState({name: props.name}, () => console.log(this.state.name) }
+        
+        Whatever we want to do with our recived data we would do it in the second argument function.
+        Since its called right after the first argument
