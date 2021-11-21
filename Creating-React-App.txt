@@ -40,3 +40,60 @@ KEY:
     Meaning that in the future if you need to change only a specific element
     React can do so by updating the element with the unique id.
     Also it would not have to re-render the whole page again.
+
+LIFECYCLE COMPONENTS:
+    Thse are components that execute automatically by react at a certain point.
+    For example, componentDidMount executes when the corresponding componentent
+    is fully loaded.
+
+FETCH API:
+    We use the built in fetch() to fetch data from apis.
+    Then we turn that data into json which we can then feed into our
+    state/app.
+
+React Component Architecture: 
+            Built in components will usally be all lowercased,
+            in comparison wiht our created componets which are Capitalized
+            There's two ways of creating components
+
+            Functions 
+            1. export const CardList(prop) {
+                return (
+                    <h1>This is a component</h1>
+                )
+            }
+
+            Classes
+            2. class App extends Component {
+                constructor(){
+                    super();
+                    this.state
+                }
+                render() {
+                    return{
+                        <h1>This is a component</h1>
+                    }
+                }
+            }
+            export default App;
+
+JSX Extension:
+        We can use the .jsx file extension to organized our files even more.
+
+Props / Properties: 
+        This are values that are passed as attributes when the component is called.
+        For Example 
+        <CardList name='Natha'/>
+        Name in this case is a variable that would be passed to the main function from where its called.
+        Which means we can attach values from the current file its being called in and pass a value to the main file 
+        where the function lives at.
+
+Children: This is something that if theres none an we called it, we will get by default null.
+          Children is what we pass in between the component
+          For Example
+          <CardList>
+                 Children
+          </CardList>
+
+
+    
