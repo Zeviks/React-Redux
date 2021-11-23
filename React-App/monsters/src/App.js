@@ -7,11 +7,7 @@ class App extends Component {
     super();
     this.state = {
       monsters: [],
-<<<<<<< HEAD
       searchField: "",
-=======
-      searchField: ''
->>>>>>> 9358598ce82c1005c431f441d5fb0bb46dd87e42
     };
   }
 
@@ -28,18 +24,11 @@ class App extends Component {
     );
     return (
       <div className="App">
-<<<<<<< HEAD
         <SearchBox
           placeholder="Search Monsters"
           handleChange={(e) => this.setState({ searchField: e.target.value })}
         />
         <CardList monsters={filteredMonsters} />
-=======
-        <input type='search' placeholder='search monsters' 
-        onChange={e => this.setState({searchField: e.target.value})}
-        />
-        <CardList monsters={this.state.monsters} />
->>>>>>> 9358598ce82c1005c431f441d5fb0bb46dd87e42
       </div>
     );
   }

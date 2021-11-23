@@ -95,7 +95,7 @@ Children: This is something that if theres none an we called it, we will get by 
           <CardList>
                  Children
           </CardList>
-<<<<<<< HEAD
+
 ON CHANGE: Whenever we encounter an even in react, it is not an html event. It's a React Synthethic Event.
 A synthethic event is a fake event that intercepts the original event, and then the "react bot" tries to 
 figure out where to apply the change to himself.
