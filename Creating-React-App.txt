@@ -94,6 +94,41 @@ Children: This is something that if theres none an we called it, we will get by 
           <CardList>
                  Children
           </CardList>
+ON CHANGE: Whenever we encounter an even in react, it is not an html event. It's a React Synthethic Event.
+A synthethic event is a fake event that intercepts the original event, and then the "react bot" tries to 
+figure out where to apply the change to himself.
+Is the reason why its camel-cased.
+Whenever out onchange is called. It pretty much triggers a function oncall.
+
+YOU CAN'T CREATE A SETSTATE INSIDE OF A RENDER FUNCTIONS.
+WHEN REACT RUNS THE RENDER FUNCTION AND ENCOUNTERS THE SETSTATE IT WILL RE-RENDER.
+AND THEN ONCE IT SEES THE RENDER FUNCTION IT WILL DO IT AGAIN.
+RESULTING IN A NEVERENDING LOOP. THIS IS WHY WE DEFINE FUNCTIONS FOR EVENTS.
+
+In this case anytime react encounters this event it will trigger the function in it.
+SINCE WE DONT INTERACT WITH THE DOM, THE BOT DOES. IT WILL DECIDE WHEN TO DISPLAY THE CONTENT.
+
+OUR UPDATED CONTENT WONT  BE VISIBLE IMMIDEITALY. SINCE THE REACT BOT BATCHES AND QUEUES WORK
+AND IT WILL DECIDE WHEN ITS THE MOST OPTIMIZED TIME TO DISPLAY IT.
 
 
-    
+
+FUNCTIONAL COMPONENTS:
+                Functional components do not have access to state because they dont have access to constructor since thats a class method
+                They also dont have access to lifecycle methods or internal state since we dont always have to use them.
+
+                There's times all we want to do is render html. This is the main purpose of functional components.
+
+                For individual components we use functional component
+                
+                When making the entire structure of the page like in what order to display the components 
+                We Use Class Components
+
+                Class Components = Smart Components
+                Functional Components = Dumb Components 
+
+            In the end, a functional components is just a function that gets some PROPS
+            and displays html.
+
+            If you dont need access to state us this.
+
