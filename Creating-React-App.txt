@@ -154,4 +154,10 @@ ASYNC STATE:
         
         Whatever we want to do with our recived data we would do it in the second argument function.
         Since its called right after the first argument
->>>>>>> 9358598ce82c1005c431f441d5fb0bb46dd87e42
+WHERE TO PUT STATE:
+        We always want to place state in a place where it can be access from anywhere
+        in the app. 
+        We always want to place the sstate towards the top or moving up the state 
+        This is known as lifting the state.
+        
+        
