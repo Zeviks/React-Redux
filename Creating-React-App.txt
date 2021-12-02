@@ -160,4 +160,8 @@ WHERE TO PUT STATE:
         We always want to place the sstate towards the top or moving up the state 
         This is known as lifting the state.
         
-        
+this : 
+        Is a special keyword that referenses the context 
+
+LEXICAL SCOPING:
+        When we make our own custom functions they're automatically assing to the 

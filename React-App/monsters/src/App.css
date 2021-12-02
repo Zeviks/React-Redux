@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+h1 {
+  font-family: Comforter;
+  font-size: 74px;
+  color: aqua;
+}
