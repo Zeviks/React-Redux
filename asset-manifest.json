@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/React-Redux/React-App/monsters/static/css/main.be1a6eb3.chunk.css",
+    "main.js": "/React-Redux/React-App/monsters/static/js/main.6db66876.chunk.js",
+    "main.js.map": "/React-Redux/React-App/monsters/static/js/main.6db66876.chunk.js.map",
+    "runtime-main.js": "/React-Redux/React-App/monsters/static/js/runtime-main.bea8bd15.js",
+    "runtime-main.js.map": "/React-Redux/React-App/monsters/static/js/runtime-main.bea8bd15.js.map",
+    "static/js/2.07535fc2.chunk.js": "/React-Redux/React-App/monsters/static/js/2.07535fc2.chunk.js",
+    "static/js/2.07535fc2.chunk.js.map": "/React-Redux/React-App/monsters/static/js/2.07535fc2.chunk.js.map",
+    "static/js/3.0061526e.chunk.js": "/React-Redux/React-App/monsters/static/js/3.0061526e.chunk.js",
+    "static/js/3.0061526e.chunk.js.map": "/React-Redux/React-App/monsters/static/js/3.0061526e.chunk.js.map",
+    "index.html": "/React-Redux/React-App/monsters/index.html",
+    "static/css/main.be1a6eb3.chunk.css.map": "/React-Redux/React-App/monsters/static/css/main.be1a6eb3.chunk.css.map",
+    "static/js/2.07535fc2.chunk.js.LICENSE.txt": "/React-Redux/React-App/monsters/static/js/2.07535fc2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bea8bd15.js",
+    "static/js/2.07535fc2.chunk.js",
+    "static/css/main.be1a6eb3.chunk.css",
+    "static/js/main.6db66876.chunk.js"
+  ]
+}
